@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.txtName = new System.Windows.Forms.TextBox();
             this.btnChange = new System.Windows.Forms.Button();
             this.Tabs = new System.Windows.Forms.TabControl();
             this.tabTextBox = new System.Windows.Forms.TabPage();
             this.tabSaveLoad = new System.Windows.Forms.TabPage();
-            this.listFavourites = new System.Windows.Forms.ListBox();
-            this.btnSave = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.listFavourites = new System.Windows.Forms.ListBox();
             this.Tabs.SuspendLayout();
             this.tabTextBox.SuspendLayout();
             this.tabSaveLoad.SuspendLayout();
@@ -81,7 +82,7 @@
             this.tabTextBox.Location = new System.Drawing.Point(4, 22);
             this.tabTextBox.Name = "tabTextBox";
             this.tabTextBox.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTextBox.Size = new System.Drawing.Size(378, 102);
+            this.tabTextBox.Size = new System.Drawing.Size(378, 206);
             this.tabTextBox.TabIndex = 0;
             this.tabTextBox.Text = "Pick Game";
             this.tabTextBox.UseVisualStyleBackColor = true;
@@ -99,16 +100,14 @@
             this.tabSaveLoad.Text = "Favourites";
             this.tabSaveLoad.UseVisualStyleBackColor = true;
             // 
-            // listFavourites
+            // btnLoad
             // 
-            this.listFavourites.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listFavourites.FormattingEnabled = true;
-            this.listFavourites.Location = new System.Drawing.Point(7, 7);
-            this.listFavourites.Name = "listFavourites";
-            this.listFavourites.Size = new System.Drawing.Size(284, 186);
-            this.listFavourites.TabIndex = 0;
+            this.btnLoad.Location = new System.Drawing.Point(297, 37);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.TabIndex = 2;
+            this.btnLoad.Text = "Load";
+            this.btnLoad.UseVisualStyleBackColor = true;
             // 
             // btnSave
             // 
@@ -120,14 +119,16 @@
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             // 
-            // btnLoad
+            // listFavourites
             // 
-            this.btnLoad.Location = new System.Drawing.Point(297, 37);
-            this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(75, 23);
-            this.btnLoad.TabIndex = 2;
-            this.btnLoad.Text = "Load";
-            this.btnLoad.UseVisualStyleBackColor = true;
+            this.listFavourites.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listFavourites.FormattingEnabled = true;
+            this.listFavourites.Location = new System.Drawing.Point(7, 7);
+            this.listFavourites.Name = "listFavourites";
+            this.listFavourites.Size = new System.Drawing.Size(284, 186);
+            this.listFavourites.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -135,6 +136,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(411, 251);
             this.Controls.Add(this.Tabs);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Tich Showers";
             this.Tabs.ResumeLayout(false);
