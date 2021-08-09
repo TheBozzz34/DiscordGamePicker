@@ -1,6 +1,8 @@
 # DiscordGamePicker
 Fork of [DiscordGamePicker](https://github.com/TichShowers/DiscordGamePicker) with binaries and an installer for Windows 10 
 
+[![Build Status](https://www.travis-ci.com/TheBozzz34/DiscordGamePicker.svg?branch=master)](https://www.travis-ci.com/TheBozzz34/DiscordGamePicker)
+
 ## To use:
 
 - Download either `Binaries.zip` or `Setup.exe` from the [releases page](https://github.com/TheBozzz34/DiscordGamePicker/releases/latest)
