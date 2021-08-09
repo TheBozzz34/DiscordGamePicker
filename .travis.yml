@@ -2,3 +2,5 @@ language: csharp
 solution: Discord Game Chooser.sln
 notifications:
   webhooks: ${{ secrets.WEBHOOK_URL }}
+     on_success: always # default: change
+     on_failure: always # default: always
