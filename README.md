@@ -12,3 +12,7 @@ Fork of [DiscordGamePicker](https://github.com/TichShowers/DiscordGamePicker) wi
 
 - Enter what game you wan to spoof and press `change`
   - Note, you might have to go to Discord --> User Settings --> Activity Status and select the game after pressing the change button
+
+
+![application](https://arch.best/BLkGVqEg)
+![discord](https://arch.best/ipv6Y8nd)
