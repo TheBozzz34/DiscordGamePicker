@@ -19,4 +19,4 @@ deploy:
     - "Discord Game Chooser.pdb"
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
