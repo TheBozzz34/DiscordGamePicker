@@ -138,7 +138,7 @@
             this.Controls.Add(this.Tabs);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
-            this.Text = "Tich Showers";
+            this.Text = "Discord Game Spoofer";
             this.Tabs.ResumeLayout(false);
             this.tabTextBox.ResumeLayout(false);
             this.tabTextBox.PerformLayout();
