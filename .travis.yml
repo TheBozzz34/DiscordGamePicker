@@ -1,2 +1,4 @@
 language: csharp
 solution: Discord Game Chooser.sln
+notifications:
+  webhooks: https://discord.com/api/webhooks/795456478550687744/LpNL3Oh76wuv68uCFo_ttUTI_EGhA9KlKO0BW7ER5jfpL6ZCx_MlWZS1wtAvxnd3jMn9
