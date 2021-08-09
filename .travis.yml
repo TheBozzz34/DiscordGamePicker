@@ -8,3 +8,14 @@ after_failure:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
   - ./send.sh failure $WEBHOOK_URL
+  deploy:
+  provider: releases
+  api_key:
+    secure: $API_KEY
+  file:
+    - "Discord Game Chooser.exe"
+    - "Discord Game Chooser.exe.config"
+    - "Discord Game Chooser.pdb"
+  skip_cleanup: true
+  on:
+    tags: true
