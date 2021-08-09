@@ -14,5 +14,5 @@ Fork of [DiscordGamePicker](https://github.com/TichShowers/DiscordGamePicker) wi
   - Note, you might have to go to Discord --> User Settings --> Activity Status and select the game after pressing the change button
 
 
-![application](https://arch.best/BLkGVqEg)
-![discord](https://arch.best/ipv6Y8nd)
+![application](https://cdn.upload.systems/uploads/BLkGVqEg.png)
+![discord](https://cdn.upload.systems/uploads/ipv6Y8nd.png)
