@@ -15,4 +15,5 @@ Fork of [DiscordGamePicker](https://github.com/TichShowers/DiscordGamePicker) wi
 
 
 ![application](https://cdn.upload.systems/uploads/BLkGVqEg.png)
+
 ![discord](https://cdn.upload.systems/uploads/ipv6Y8nd.png)
