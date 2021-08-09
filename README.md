@@ -1,2 +1,2 @@
 # DiscordGamePicker
-Spoof your game with this dumb thing
+Fork of [DiscordGamePicker](https://github.com/TichShowers/DiscordGamePicker) with binaries and an installer for windows 10 
