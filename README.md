@@ -1,4 +1,4 @@
-# DiscordGamePicker
+# DiscordGamePicker I uave no clue if this still works, i havent touched it in ages.
 
 [![Build Status](https://www.travis-ci.com/TheBozzz34/DiscordGamePicker.svg?branch=master)](https://www.travis-ci.com/TheBozzz34/DiscordGamePicker)
 
